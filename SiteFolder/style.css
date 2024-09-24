@@ -1,0 +1,37 @@
+#navbarList {
+    border:3px solid #307e9e;
+    list-style-type: none; /*Zorgt dat er geen bolletjes meet staan*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*Zorgt dat de ul elementen niet uit de lijst gaan*/
+    background-color: #333;
+}
+
+#navbarList li {
+    border-right: 1px solid #307e9e;
+}
+
+#navbarList li:last-child {
+    border-right:none;
+}
+
+#navbarList li a {
+    display:block; /*Maakt de navbar een blok*/
+    color: white;
+    text-align:center ; 
+    padding:1vh 1vmax; /*Zet de positie van de tekst*/
+    text-decoration:none; /*Haalt de onderlijn weg van de links*/
+}
+
+#navbarList li a:hover:not(.active) {
+    background-color: #111; /*Veranderd de achtergrond kleur alleen als het 
+    element niet het actieve element is*/
+}
+
+.active {
+    background-color: #307e9e;
+}
+/*padding: 1vw // 1% of viewport width
+/*padding: 1vh // 1% of viewport height
+/*padding: 1vmin // 1vw or 1vh, whichever is smaller
+/*padding: 1vmax // 1vw or 1vh, whichever is larger
