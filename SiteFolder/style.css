@@ -1,36 +1,70 @@
+body {
+    margin: 0;
+    background-image: url("paper.gif");
+    background-color: #ffffbf93;
+}
+
+/*Navbar css -------------------------------------*/ 
 #navbarList {
-    border:3px solid #307e9e;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
     list-style-type: none; /*Zorgt dat er geen bolletjes meet staan*/
     margin: 0;
     padding: 0;
     overflow: hidden; /*Zorgt dat de ul elementen niet uit de lijst gaan*/
     background-color: #333;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
-#navbarList li {
-    border-right: 1px solid #307e9e;
+#navbarList li { /*Zet een border tussen alle knopjes*/
+    border-right: 1px solid #808080;
 }
 
-#navbarList li:last-child {
-    border-right:none;
-}
+#navbarList li:last-child{ /*Haalt de rechter border by contact info weg*/
+    border-right: none;
+    border-left:1px solid #808080 }
 
-#navbarList li a {
-    display:block; /*Maakt de navbar een blok*/
-    color: white;
-    text-align:center ; 
-    padding:1vh 1vmax; /*Zet de positie van de tekst*/
-    text-decoration:none; /*Haalt de onderlijn weg van de links*/
+#navbarList li a { /*Text in de navbar*/
+    display: block; /*Maakt de navbar een blok*/
+    color: whitesmoke;
+    text-align: center;
+    padding: 1vh 1vw; /*Zet de positie van de tekst*/
+    text-decoration: none; /*Haalt de onderlijn weg van de links*/
 }
 
 #navbarList li a:hover:not(.active) {
-    background-color: #111; /*Veranderd de achtergrond kleur alleen als het 
-    element niet het actieve element is*/
+    background-color: #321; /*Veranderd de achtergrond kleur alleen als het 
+element niet het actieve element is*/
 }
 
 .active {
-    background-color: #307e9e;
+    background-color: #231;
 }
+
+/*Project css -------------------------------------*/
+.project {
+    overflow:hidden;
+    width: 20vw;
+    height: 20vw;
+    background: #808080;
+    border-block: solid;
+    border-right: solid;
+    border-left: solid;
+    transition: width 2s, height 2.3s;
+}
+
+.project:hover {
+    width: 90vw;
+    height: 90vh;
+}
+
+/*Resume css -------------------------------------*/
+
+/*Contact css -------------------------------------*/ 
+
+
+
 /*padding: 1vw // 1% of viewport width
 /*padding: 1vh // 1% of viewport height
 /*padding: 1vmin // 1vw or 1vh, whichever is smaller
