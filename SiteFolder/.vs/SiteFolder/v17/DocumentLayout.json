@@ -11,20 +11,20 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Portfolio.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\Portfolio Website\\Portfolio-website\\SiteFolder\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\Portfolio Website\\Portfolio-website\\SiteFolder\\Resume.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Resume.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\Portfolio Website\\Portfolio-website\\SiteFolder\\Index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\Portfolio Website\\Portfolio-website\\SiteFolder\\Contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\Portfolio Website\\Portfolio-website\\SiteFolder\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\Portfolio Website\\Portfolio-website\\SiteFolder\\Index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,19 +36,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Portfolio.html",
-              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\Portfolio Website\\Portfolio-website\\SiteFolder\\Portfolio.html",
-              "RelativeDocumentMoniker": "Portfolio.html",
-              "ToolTip": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\Portfolio Website\\Portfolio-website\\SiteFolder\\Portfolio.html",
-              "RelativeToolTip": "Portfolio.html",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-30T18:29:52.547Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -67,20 +54,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Portfolio.html",
+              "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\Portfolio Website\\Portfolio-website\\SiteFolder\\Portfolio.html",
+              "RelativeDocumentMoniker": "Portfolio.html",
+              "ToolTip": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\Portfolio Website\\Portfolio-website\\SiteFolder\\Portfolio.html",
+              "RelativeToolTip": "Portfolio.html",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvxIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-30T18:29:52.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\Portfolio Website\\Portfolio-website\\SiteFolder\\style.css",
               "RelativeDocumentMoniker": "style.css",
               "ToolTip": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\Portfolio Website\\Portfolio-website\\SiteFolder\\style.css",
               "RelativeToolTip": "style.css",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADYAAAAeAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAADwv0YAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-09-24T08:10:53.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Contact.html",
               "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\Portfolio Website\\Portfolio-website\\SiteFolder\\Contact.html",
               "RelativeDocumentMoniker": "Contact.html",
@@ -93,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.html",
               "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\Portfolio Website\\Portfolio-website\\SiteFolder\\Index.html",
               "RelativeDocumentMoniker": "Index.html",
@@ -101,25 +101,24 @@
               "RelativeToolTip": "Index.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-24T08:05:27.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T08:05:27.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Resume.html",
               "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\Portfolio Website\\Portfolio-website\\SiteFolder\\Resume.html",
               "RelativeDocumentMoniker": "Resume.html",
               "ToolTip": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\Portfolio Website\\Portfolio-website\\SiteFolder\\Resume.html",
               "RelativeToolTip": "Resume.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-09-30T17:59:56.906Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "index.js",
               "DocumentMoniker": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\Portfolio Website\\Portfolio-website\\SiteFolder\\index.js",
               "RelativeDocumentMoniker": "index.js",
