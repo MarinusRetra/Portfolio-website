@@ -100,16 +100,24 @@ element niet het actieve element is*/
     height: 25vh;
 }
 
-#projectTitle {
-    color: #cccccc;
+.projectTitle {
+    position:absolute;
+    color: white;
+    width: 40vw; 
+    height: 10vh;
+    opacity:100;
+    transition: color 1s, position;
 }
 
+.projectContainer:hover .projectTitle {
+    position:relative;
+    color: #cccccc; 
+}
 
 
 /*Resume css -------------------------------------*/
 
 /*Contact css -------------------------------------*/
-
 
 
 /*padding: 1vw // 1% of viewport width */
