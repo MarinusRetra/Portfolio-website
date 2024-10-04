@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-image: url("nothing yet");
-    background-color: #ffffbf93;
+    background-color: darkgrey;
 }
 
 /*Navbar css -------------------------------------*/ 
@@ -15,11 +15,6 @@ body {
     background-color: #333;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
-.projectPage {
-    list-style-type: none; /*Zorgt dat er geen bolletjes meet staan*/
-    margin: 1vh, 0;
-    padding: 0;
-}
 
 #navbarList li { /*Zet een border tussen alle knopjes*/
     border-right: 1px solid #808080;
@@ -30,16 +25,15 @@ body {
     border-left:1px solid #808080 }
 
 #navbarList li a { /*Text in de navbar*/
-    display: block; /*Maakt de navbar een blok*/
+    display: block; 
     color: whitesmoke;
     text-align: center;
-    padding: 1vh 1vw; /*Zet de positie van de tekst*/
-    text-decoration: none; /*Haalt de onderlijn weg van de links*/
+    padding: 1vh 1vw;
+    text-decoration: none; 
 }
 
 #navbarList li a:hover:not(.active) {
-    background-color: #321; /*Veranderd de achtergrond kleur alleen als het 
-element niet het actieve element is*/
+    background-color: #321;
 }
 
 .active {
@@ -47,80 +41,97 @@ element niet het actieve element is*/
 }
 
 /*Project css -------------------------------------*/
+.projectPageLeft:hover > li {
+    opacity:0;
+}
+.projectPageLeft > li:hover {
+    opacity:100;
+}
+.projectPageRight:hover > li{
+    opacity: 0
+}
+.projectPageRight > li:hover {
+    opacity: 100
+}
+
+.projectPageLeft:has(+ projectPageRight:hover) {
+    opacity: 0;
+}
+.projectPageLeft:hover + .projectPageRight  {
+    opacity:0;
+}
+
+.projectTitle {
+    position: absolute;
+    color: white;
+}
 .projectContainer {
     overflow: hidden;
     width: 30vw;
     height: 30vh;
-    background: #808080;
-    border-block: solid wheat;
-    border-right: solid wheat;
-    border-left: solid wheat;
+    background-color: gray;
     transition: width 1.5s, height 1.7s;
 }
+
 .projectContainer:hover {
     width: 91vw;
     height: 115vh;
-    border-block: solid black;
-    border-right: solid black;
-    border-left: solid black;
+}
+
+.projectContainer:hover .projectImage {
+    opacity:100;
 }
 
 .projectImage { /*Dit is de class voor alle projectImage*/
     max-width: 89.5vw;
     max-height: 30vh;
-    transition: width 2s, height 2.3s;
+    opacity:0;
+    transition: opacity 2s, width 2s, height 2.3s;
 }
 
 #projectImage1 { /*Individueele project image*/
     max-width: 40vw;
     height: 100%;
     float: right;
-    width: auto;
-    border-block: solid wheat;
-    border-right: solid wheat;
-    border-left: solid wheat;
+    width: 100%;
+    border: solid wheat;
 }
 #projectImage2 { /*Individueele project image*/
     width: 60vw;
     height: 20vh;
-    border-block: solid purple;
-    border-right: solid purple;
-    border-left: solid purple;
+    border:solid purple;
 }
 #projectImage3 { /*Individueele project image*/
     width: 60vw;
     height:20vh;
-    border-block: solid green;
-    border-right: solid green;
-    border-left: solid green;
+    border:solid green;
 }
 
-.projectContainer:hover .projectImage {
-    width: 25vw;
-    height: 25vh;
+.projectPageLeft {
+    position: absolute;
+    list-style-type: none;
+    margin: 1vh, 0;
+    padding: 0;
+    transition: opacity 1s;
 }
+    .projectPageLeft li {
+        padding:1vmin;
+        transition: opacity 0.5s;
+    }
 
-.projectTitle {
-    position:absolute;
-    color: white;
-    width: 40vw; 
-    height: 10vh;
-    opacity:100;
-    transition: color 1s, position;
+.projectPageRight {
+    float: right;
+    list-style-type: none;
+    margin: 1vh, 0;
+    padding: 0;
+    transition: opacity 1s;
 }
-
-.projectContainer:hover .projectTitle {
-    position:relative;
-    color: #cccccc; 
-}
+    .projectPageRight li {
+        padding: 1vmin;
+        transition: opacity 0.5s;
+    }
 
 
 /*Resume css -------------------------------------*/
 
 /*Contact css -------------------------------------*/
-
-
-/*padding: 1vw // 1% of viewport width */
-/*padding: 1vh // 1% of viewport height */
-/*padding: 1vmin // 1vw or 1vh, whichever is smaller */
-/*padding: 1vmax // 1vw or 1vh, whichever is larger */
