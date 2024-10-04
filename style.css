@@ -1,7 +1,6 @@
 body {
     margin: 0;
-    background-image: url("nothing yet");
-    background-color: darkgrey;
+    background-color: dimgray;
 }
 
 /*Navbar css -------------------------------------*/ 
@@ -54,9 +53,12 @@ body {
     opacity: 100
 }
 
-.projectPageLeft:has(+ projectPageRight:hover) {
+/* .projectPageLeft:has(+ projectPageRight:hover) {
     opacity: 0;
 }
+:has heeft nog geen support op veel browsers en
+daarom werkt dit nog niet en is het vervangen door javascript
+*/ 
 .projectPageLeft:hover + .projectPageRight  {
     opacity:0;
 }
@@ -70,7 +72,7 @@ body {
     width: 30vw;
     height: 30vh;
     background-color: gray;
-    transition: width 1.5s, height 1.7s;
+    transition: width 1.5s, height 1.5s;
 }
 
 .projectContainer:hover {
