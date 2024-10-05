@@ -108,13 +108,29 @@
           <li>
               <section id="simonSaysKaart">
                   <div class="projectContainer">
-                      <img class="projectImage" id="projectImage1" src="" alt="Simon Says plaatje">
+                      <img class="projectImage" id="projectImage1" src="img\Simon_Says_Simulatie.png" alt="Simon Says plaatje">
                       <ins class="projectTitle">Simon Says (Arduino)</ins>
                       <p>
-                          text
+                          Ik heb met behulp van Arduino microcontrollers Simon Says nagemaakt op een breadboard
+                          waarbij de er in een willekeurige volgorde 4 verschillende LED's branden en je vervolgens
+                          in dezelfde volgorde de vier knopjes daaronden in moet drukken elke keer wanneer je een ronde gehaald heb
+                          dan wordt er een LED aan de volgorde toegevoegd dit gaat door totdat je ronde 3 hebt gehaald
+                          of totdat je een fout maakt. In het geval dat je een fout maakt gaan alle LED's in een keer aan
+                          Als je alle rondes gehaald hebt dan beginnen alle LED's van links naar rechts te knipperen.
+                          <br />
+                          <br />
+
+                          De volgorde van LED's' is in de simulatie elke keer hetzelfde omdat je geen RandomSeed kan
+                          genereren in een simualtie want de microcontroller pakt de 'noise' van een fysieke pin die niet bestaat in een simulatie
+                          <br/>
+                          <br /><a href="https://www.tinkercad.com/things/jD6Qli6k3oh-simon-says">Link naar TinkerCad simulatie en code</a>
                       </p>
-                      <img class="projectImage" id="projectImage2" src="">
-                      <img class="projectImage" id="projectImage3" src="">
+                      <video class="projectImage" id="projectImage2" autoplay muted>
+                          <source src="img\Puzzel_video_win.mp4" type="video/mp4">
+                      </video>
+                      <video class="projectImage" id="projectImage3" autoplay muted>
+                          <source src="img\Lose.mp4" type="video/mp4">
+                      </video>
                   </div>
               </section>
           </li>
