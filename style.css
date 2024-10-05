@@ -74,22 +74,24 @@ body {
     height: 115vh;
 }
 
-.projectContainer:hover .projectImage {
-    opacity:100;
-}
+    .projectContainer:hover .projectImage {
+        opacity: 100;
+    }
+    .projectContainer:hover #projectImage1 {
+        border: solid wheat;
+    }
 
 .projectImage { /*Dit is de class voor alle projectImage*/
     max-width: 40vw;
     max-height: 30vh;
-    opacity: 0;
-    transition: opacity 2s, width 2s, height 2.3s;
+    transition: opacity 2s, width 2s, height 2.3s, border 1s;
 }
 
 #projectImage1 { /*Individueele project image*/
     width: 40vw;
     height: auto;
     float: right;
-    border: solid wheat;
+    border: gray;
 }
 #projectImage2 { /*Individueele project image*/
     width: auto;
