@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,10 +49,6 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e9d26e9f-2060-4aa2-bec3-2a9e07c66900}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Portfolio.html",
@@ -60,7 +56,7 @@
               "RelativeDocumentMoniker": "Portfolio.html",
               "ToolTip": "C:\\Users\\marin\\OneDrive\\Desktop\\Projecten\\Portfolio Website\\Portfolio-website\\Portfolio.html",
               "RelativeToolTip": "Portfolio.html",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAAAHYAAAA6AAAA",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAAAJsAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-10-04T12:58:11.866Z",
               "EditorCaption": ""
@@ -75,8 +71,7 @@
               "RelativeToolTip": "style.css",
               "ViewState": "AQIAAEMAAAAAAAAAAAAowEoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-04T12:58:26.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T12:58:26.436Z"
             },
             {
               "$type": "Document",
@@ -125,6 +120,10 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-10-04T13:02:40.568Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e9d26e9f-2060-4aa2-bec3-2a9e07c66900}"
             }
           ]
         }
