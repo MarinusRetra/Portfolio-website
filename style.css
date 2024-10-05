@@ -99,7 +99,7 @@ body {
 #projectImage3 { /*Individueele project image*/
     width: 100%;
     height: auto;
-    border: solid green;
+    border: solid darkgreen;
 }
 
 .projectPageLeft {
@@ -129,7 +129,7 @@ body {
     }
 
 .greenText {
-    color: green;
+    color: darkgreen;
     text-decoration: none;
 }
 .purpleText {
