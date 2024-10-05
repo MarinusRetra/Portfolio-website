@@ -122,13 +122,15 @@ daarom werkt dit nog niet en is het vervangen door javascript
     }
 
 .projectPageRight {
-    float: right;
+    float:right;
     list-style-type: none;
     margin: 1vh, 0;
     padding: 0;
     transition: opacity 1s;
 }
     .projectPageRight li {
+        float:right;
+        clear:both;
         padding: 1vmin;
         transition: opacity 0.5s;
     }
