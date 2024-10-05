@@ -92,7 +92,7 @@ body {
     border: solid wheat;
 }
 #projectImage2 { /*Individueele project image*/
-    width: 100%;
+    width: auto;
     height: auto;
     border: solid purple;
 }
