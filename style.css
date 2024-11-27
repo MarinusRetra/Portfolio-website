@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: dimgray;
+    background-color: #2f4f5f;
 }
 
 /*Navbar css -------------------------------------*/ 
@@ -33,6 +33,7 @@ body {
 
 #navbarList li a:hover:not(.active) {
     background-color: #321;
+    transition: background-color 0.3s;
 }
 
 .active {
@@ -40,67 +41,55 @@ body {
 }
 
 /*Project css -------------------------------------*/
-.projectPageLeft:hover > li {
-    opacity:0;
-}
-.projectPageLeft > li:hover {
-    opacity:100;
-}
-.projectPageRight:hover > li{
-    opacity: 0
-}
-.projectPageRight > li:hover {
-    opacity: 100
-}
-
 .projectPageLeft:hover + .projectPageRight  {
     opacity:0;
-}
+} 
+/*TO DO: Verplaats opacity transition va .projectPageRight naar javascript*/
 
 .projectTitle {
     position: absolute;
     color: white;
 }
 .projectContainer {
+    border: solid;
     overflow: hidden;
     width: 30vw;
     height: 30vh;
     background-color: gray;
-    transition: width 1.5s, height 1.5s;
+    transition: width 1.5s, height 1.5s, border 0.3s;
 }
 
 .projectContainer:hover {
     width: 91vw;
     height: 115vh;
+    border-color:white;
 }
-
     .projectContainer:hover .projectImage {
         opacity: 100;
     }
     .projectContainer:hover #projectImage1 {
         border: solid wheat;
     }
-
 .projectImage { /*Dit is de class voor alle projectImage*/
-    max-width: 40vw;
+    max-width: 35vw;
     max-height: 30vh;
     transition: opacity 2s, width 2s, height 2.3s, border 1s;
 }
 
 #projectImage1 { /*Individueele project image*/
     width: 40vw;
-    height: auto;
+    height: 40vw;
     float: right;
     border: gray;
 }
 #projectImage2 { /*Individueele project image*/
     width: auto;
-    height: auto;
+    height: 19vh;
     border: solid purple;
 }
 #projectImage3 { /*Individueele project image*/
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 19vh;
     border: solid darkgreen;
 }
 
